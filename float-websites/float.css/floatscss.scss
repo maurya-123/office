@@ -1,0 +1,1257 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+html{
+    font-size: 10px;
+}
+                                                /*header*/
+header{
+    max-width: 100%;
+    background-color: #fff;
+    padding: 2.5rem;
+    
+    p{
+          font-size: 3rem;
+          font-family: 'Raleway', sans-serif;
+          margin-left: 30rem;
+          position: relative;
+          top: 1rem;
+    }
+    sup{
+        font-size: 1.8rem;
+    }
+         
+    nav{
+        float: right;
+        margin-right: 60rem;
+        position: relative;
+        top: -2rem;
+        
+        li{
+            float: left;
+            list-style: none;
+            text-decoration: none;
+            font-size: large;
+            padding: 0.4rem;
+            margin-right: 2.5rem;
+
+            a{
+                text-decoration: none;
+                color: black;      
+            }
+
+            a:hover{
+                color: gray;
+            }
+        }
+
+        .change{
+            font-size: 2.5rem;
+            color: #000;
+            display: none;
+        }
+        .change:hover{
+            color: gray;
+        }
+        a{
+            text-decoration: none;
+        }
+    }  
+}
+                                               /*banner*/
+.banner{
+    max-width: 100%;
+    background-image: url("C:/Users/hp/Desktop/all-office-p/office-project-img/float-img/vintage-old-rustic-cutlery-dark_1220-4886.jpg");
+    background-attachment: fixed;
+    padding: 30rem 0rem;
+
+    h1{
+        color: #fff;
+        font-size: 6rem;
+        margin-left: 40rem;
+        font-weight: lighter;
+    }
+
+    .new{
+        margin-left: 52rem;
+  }   
+}
+                                              /*article*/
+article{
+
+    img{
+        float: left;
+        width: 50%;
+        height: 85vh;
+        object-fit: cover;
+    }
+
+.right{
+    width: 50%;
+    float: left;
+    background-color: #fff;
+    padding: 11rem 0rem 9.5rem 12rem;
+
+    h1{
+        font-size: 5rem;
+        font-weight: lighter;
+    }
+
+    p{
+        font-size: 1.8rem;
+        margin-top: 7rem;
+        line-height: 3.5rem;
+    }
+
+    footer{
+        font-size: 1.8rem;
+        margin-top: 7.5rem;
+    }
+}
+}
+                                             /*section*/
+section{
+    background-image: url("C:/Users/hp/Desktop/all-office-p/office-project-img/float-img/2021_BNE_ZaZaTaDish_FoodBeverage_@za.za.ta.jpg");
+    background-attachment: fixed;
+    max-width: 100%;
+  
+
+    .center{
+        max-width: 70%;
+        margin: 0 auto;
+        clear: both;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+
+        .same{
+          width: 30%;
+          float: left;
+          background-color: #fff;
+
+          h1{
+              font-size: 4rem;
+              font-weight: lighter;
+              margin-left: 10rem;
+              margin-top: 2rem;
+          }
+          p{
+              font-size: 1.8rem;
+              font-weight: lighter;
+              margin: 5rem 0rem 4rem 5rem;
+          }
+          img{
+              width: 55%;
+              margin-top: 5rem;
+              margin-left: 7rem;
+          }
+          
+          .a{
+              position: relative;
+              top: -0.9rem;
+              left: 1.3rem;
+          }
+          .b{
+              position: relative;
+              top: -0.9rem;
+              left: -0.8rem;   
+          }
+          .c{
+              position: relative;
+              top: -0.9rem;
+              left: -1.4rem;
+          }
+        }
+
+        .two{
+            margin: 0% 5% 0% 5%;
+        } 
+
+        button{
+            border: none;
+            background-color: #fff;
+            font-size: 2rem;
+            margin-left: 11rem;
+            margin-bottom: 5rem;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+     }
+ }
+                                                /*farm*/
+        .farm{
+            width: 100%;
+            background-image: url("C:/Users/hp/Desktop/all-office-p/office-project-img/float-img/dry-aged-beef-t-bone-22.jpg");
+            background-attachment: fixed;
+            padding: 8rem 0rem;
+            
+            #box{
+                width: 40%;
+                margin: 0 auto;
+                background-color: #fff;
+                padding-bottom: 6rem;
+          
+            h1{
+                font-size: 5rem;
+                font-weight: lighter;
+                padding-top: 6rem;
+                margin-left: 16rem; 
+            }
+            h2{
+                font-size: 2.7rem;
+                font-weight: lighter;
+                margin-top: 3rem;
+                margin-left: 19rem;
+            }
+            p{
+                font-size: 1.7rem;
+                font-weight: lighter;
+                line-height: 3rem;
+                margin-top: 7rem;
+                margin-left: 13rem;
+            }
+            button{
+                width: 8.5vw;
+                height: 6vh;
+                background-color: #fff;
+                margin-top: 5rem;
+                margin-left: 23rem;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+ }   
+                                               /*review*/
+.review{
+    background-image: url("C:/Users/hp/Desktop/all-office-p/office-project-img/float-img/desktop-wallpaper-cake-cheese-cream-white-chocolate-vanilla-cherry-poppy-food-white-chocolate.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    padding: 7rem 0rem 7rem 0rem;
+     
+    h1{
+        font-size: 4rem;
+        margin-left: 46rem;
+        font-weight: lighter;    
+    }
+
+    img{
+        width: 9%;
+        border-radius: 100%;
+        border: 1rem double gray;
+        margin-left: 69rem;
+        margin-top: 4rem;
+    }
+    p{
+        font-size: 1.8rem;
+        margin-left: 69.2rem;
+        margin-top: 3rem;
+        padding-bottom: 20rem;
+    }
+}
+                                           /*blank*/
+ .blank{
+    background-image: url("C:/Users/hp/Desktop/all-office-p/office-project-img/float-img/2323.jpeg");
+    width: 100%;
+    height: 65rem;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+                                          /*main*/
+main{
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 12rem;
+
+    h1{
+        font-size: 5rem;
+        font-weight: lighter;
+        margin-left: 58.8rem;
+        padding-top: 6rem;
+    }
+    .low{
+        font-size: 1.7rem;
+        margin-left: 59.4rem;
+        margin-top: 1.9rem;
+    }
+    #size{
+        font-size: 2.8rem;
+        margin-left: 53rem;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+    span{
+        position: relative;
+        top: -0.5rem;
+    }
+
+    .j{
+        font-size: 1.6rem;
+        margin-left: 46.5rem;
+        color: gray;
+       
+    }
+    .mar{
+        margin-left: 46.5rem;
+        width: 38%;
+        padding: 0.8rem;
+    }
+    textarea{
+        margin-left: 46.5rem;
+        width: 38%;
+        position: relative;
+        top: 5rem;
+    }
+    .r{
+        position: relative;
+        top: 1rem;
+    }
+    .i{
+        position: relative;
+        top: 2rem;
+    }
+    .o{
+        position: relative;
+        top: 4rem;
+    }
+    .t{
+        position: relative;
+        top: 3rem;
+    }
+    .but{
+        width: 9%;
+        padding: 0.8rem;
+        background-color: black;
+        color: #fff;
+        margin-left: 90.6rem;
+        margin-top: 5rem;
+    }
+}
+                                             /*aside*/
+    .z{
+        width: 25%;
+        float: left;
+    }
+
+    .z:hover{
+        filter: brightness(70%);
+    }
+
+        img{
+        width: 100%;
+        }     
+               
+.extra{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 518rem;
+    display: none;
+
+    .num1{
+        margin-left: 13rem;
+    }
+    .num2{
+        margin-left: 29rem;
+    }
+    .num3{
+        margin-left: 27rem;
+    }
+    .num4{
+        margin-left: 27rem;
+    }
+}
+aside:hover .extra{
+    display: block;
+}
+ 
+                                            /*footer*/
+                                        
+.ab{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-left: 65rem;
+    padding-top: 3rem;
+}  
+.bc{
+    font-size: 1.8rem;
+    margin-left: 59rem;
+    padding-top: 2rem;
+}       
+.cd{
+    font-size: 1.8rem;
+    margin-left: 71.5rem;
+    margin-top: 7rem;
+} 
+.last{
+    background-color: ghostwhite;
+    margin-top: 2rem;
+} 
+.de{
+    font-size: 1.5rem;
+    margin-left: 58rem;
+    padding: 1.5rem;
+}
+                                          /*media*/
+@media (max-width: 1286px){
+    html{
+        font-size: 9.3px;
+    }
+
+    aside:hover .extra{
+        display: none;
+    }
+
+    header nav {
+        margin-right: 5rem;
+      }  
+
+      main .but {
+        margin-left: 66rem;
+      }
+
+      .banner h1 {
+          margin-left: 35rem;
+          margin-right: 25rem;
+          font-size: 5rem;
+      }
+
+      .banner .new {
+          margin-left: 45rem;
+      }
+
+      .banner{
+          padding: 25rem 0rem;
+      }
+
+      article img{
+        height: 79vh;
+    }
+ 
+   section .center .same h1 {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    margin-left: 14.5rem;
+    margin-top: 2rem;
+  }
+
+  section .center .two {
+    margin: 0% 1% 0% 1%;
+  }
+
+  section .center .same {
+    width: 32.66%;
+    float: left;
+    background-color: #fff;
+  }
+  
+  section .center .same p {
+    font-size: 2.2rem;
+    font-weight: lighter;
+    margin: 2rem 0rem 2rem 5.5rem;
+  }
+  
+  section .center .same img {
+    width: 45%;
+    margin-top: 5rem;
+    margin-left: 10rem;
+  }
+
+  section .center button {
+    border: none;
+    background-color: #fff;
+    font-size: 2.3rem;
+    margin-left: 13rem;
+    margin-bottom: 3rem;
+  }  
+
+  section .center {
+    max-width: 100%;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .farm #box {
+    width: 43%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-bottom: 6rem;
+  }
+
+  .farm #box h1 {
+    font-size: 5rem;
+    padding-top: 6rem;
+    margin-left: 10rem;
+  }
+  
+  .farm #box h2 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 14.5rem;
+  }
+  
+  .farm #box p {
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+  
+  .farm #box button {
+    width: 9vw;
+    height: 5.5vh;
+    margin-top: 5rem;
+    margin-left: 20rem;
+  }
+
+  .review h1 {
+      font-size: 3.5rem;
+      margin-left: 40rem;
+  }
+
+  .review img {
+      margin-left: 59.5rem;
+  }
+
+  .review p {
+      margin-left: 59rem;
+      font-size: 1.7rem;
+  }
+
+  main h1 {
+      margin-left: 50rem;
+ 
+  }
+  
+  main .low {
+    margin-left: 50.4rem;
+  }
+  
+  main #size {
+    margin-left: 44rem;
+  }
+
+  form{
+      margin-left: 0rem;
+  }
+
+  .ab {
+      margin-left: 55rem;
+  }
+
+  .bc {
+      margin-left: 50rem;
+  }
+
+  .cd {
+      margin-left: 62rem;
+  }
+
+  .de {
+      margin-left: 48.5rem;
+  }
+  
+}
+
+@media (max-width: 990px){
+    html{
+        font-size: 8.8px;
+    }
+
+    header nav li {
+        float: none;
+        margin-top: 5px;
+      }
+      
+      header nav .change {
+        display: block;
+      }
+
+      header p {
+         margin-left: 25rem;
+      }
+
+      #uniq{
+          display: none;
+          border-top: 1px solid black;
+          width: 20%;
+          margin-top: 10px;
+      }
+
+      .change{
+          margin-left: 600px;
+      }
+
+      .banner .new{
+        margin-left: 34rem;
+    }
+
+    article .right {
+        padding-left: 30rem;
+    }
+
+    article .right h1{
+        margin-left: -5rem;
+    }
+
+    article .right p{
+        font-size: 2.5rem;
+        margin-left: -5rem;
+    }
+
+    article .right footer{
+        font-size: 2.5rem;
+        margin-left: -5rem;
+    }
+
+    article img {
+        float: none;
+        width: 100%;
+        height: 65vh;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+
+      article .right {
+          width: 100%;
+      }
+
+      aside:hover .extra{
+        display: none;
+    }
+
+    .banner {
+        padding: 22rem 0rem;
+    }
+
+    section .center .same h1 {
+        font-size: 3.3rem;
+        font-weight: lighter;
+        margin-left: 12rem;
+        margin-top: 2rem;
+      }
+    
+      section .center .two {
+        margin: 0% 1% 0% 1%;
+      }
+    
+      section .center .same {
+        width: 32.66%;
+        float: left;
+        background-color: #fff;
+      }
+      
+      section .center .same p {
+        font-size: 2rem;
+        font-weight: lighter;
+        margin: 2rem 0rem 2rem 3.4rem;
+      }
+      
+      section .center .same img {
+        width: 45%;
+        margin-top: 5rem;
+        margin-left: 9rem;
+      }
+    
+      section .center button {
+        border: none;
+        background-color: #fff;
+        font-size: 2.3rem;
+        margin-left: 11rem;
+        margin-bottom: 3rem;
+      }  
+    
+      section .center {
+        max-width: 100%;
+        margin: 0 auto;
+        clear: both;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+      }
+    
+      .farm #box {
+        width: 51%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding-bottom: 6rem;
+      }
+    
+      .farm #box h1 {
+        font-size: 5rem;
+        padding-top: 6rem;
+        margin-left: 10rem;
+      }
+      
+      .farm #box h2 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        margin-left: 14.5rem;
+      }
+      
+      .farm #box p {
+        font-size: 1.9rem;
+        margin-top: 3rem;
+        margin-left: 5rem;
+      }
+      
+      .farm #box button {
+        width: 11vw;
+        height: 5vh;
+        margin-top: 5rem;
+        margin-left: 20rem;
+      }
+
+  .review h1{
+      margin-left: 27rem;
+  }
+
+  .review img{
+      margin-left: 49rem;
+  }
+
+  .review p{
+      margin-left: 47rem;
+  }
+
+  main #size {
+    margin-left: 43rem;
+  }
+
+  .ab {
+    margin-left: 40rem;
+}
+
+.bc {
+    margin-left: 35rem;
+}
+
+.cd {
+    margin-left: 47rem;
+}
+
+.de {
+    margin-left: 32rem;
+}
+}
+
+@media (max-width: 800px){
+    html{
+        font-size: 8px;
+    }
+
+    #uniq{
+        margin-left: 100px;
+    }
+
+    header p {
+        margin-left: 10rem;
+    }
+
+    article .right {
+        padding-left: 30rem;
+    }
+
+    article .right h1{
+        margin-left: -10rem;
+    }
+
+    article .right p{
+        font-size: 2.5rem;
+        margin-left: -10rem;
+    }
+
+    article .right footer{
+        font-size: 2.5rem;
+        margin-left: -10rem;
+    }
+
+    article img {
+        float: none;
+        width: 100%;
+        height: 65vh;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+
+      aside:hover .extra{
+        display: none;
+    }
+
+    .banner {
+        padding: 22rem 0rem;
+    }
+
+    section .center .same h1 {
+        font-size: 4rem;
+        font-weight: lighter;
+        margin-left: 23rem;
+        margin-top: 2rem;
+      }
+    
+      section .center .same {
+        width: 65%;
+        float: none;
+        background-color: #fff;
+        margin: 0 auto;
+      }
+      
+      section .center .same p {
+        font-size: 2.8rem;
+        font-weight: lighter;
+        margin: 1rem 0rem 2rem 12.2rem;
+      }
+      
+      section .center .same img {
+        width: 30%;
+        margin-top: 3rem;
+        margin-left: 19rem;
+      }
+    
+      section .center button {
+        border: none;
+        background-color: #fff;
+        font-size: 2.3rem;
+        margin-left: 23.5rem;
+        margin-bottom: 3rem;
+      }  
+    
+      section .center {
+        max-width: 100%;
+        margin: 0 auto;
+        clear: both;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+      }
+
+      section .center .two {
+        margin: 5% 0% 5% 17.5%;
+      }
+    
+      .farm #box {
+        width: 70%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding-bottom: 6rem;
+      }
+    
+      .farm #box h1 {
+        font-size: 5rem;
+        padding-top: 6rem;
+        margin-left: 12rem;
+      }
+      
+      .farm #box h2 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        margin-left: 16rem;
+      }
+      
+      .farm #box p {
+        font-size: 2.2rem;
+        margin-top: 3rem;
+        margin-left: 4rem;
+      }
+      
+      .farm #box button {
+        width: 14vw;
+        height: 5vh;
+        margin-top: 5rem;
+        margin-left: 20rem;
+      }
+
+      .review h1{
+        margin-left: 27rem;
+        font-size: 3rem;
+    }
+  
+    .review img{
+        margin-left: 45rem;
+    }
+  
+    .review p{
+        margin-left: 43rem;
+    }
+
+    main h1 {
+        margin-left: 25rem;
+       }
+       
+       main .low {
+         margin-left: 25.3rem
+       }
+       
+       main #size {
+         margin-left: 20rem;
+       } 
+
+       form{
+           margin-left: -28rem;
+       }
+
+       .z{
+        float: none;
+        width: 100%;
+    }
+
+    .ab {
+        margin-left: 30rem;
+    }
+    
+    .bc {
+        margin-left: 25rem;
+    }
+    
+    .cd {
+        margin-left: 37rem;
+    }
+    
+    .de {
+        margin-left: 22rem;
+    }
+
+}
+
+@media (max-width: 600px){
+    header p {
+        margin-left: 1rem;
+    }
+
+    #uniq{
+        margin-left: 200px;
+    }
+
+    header nav {
+        margin-right: 1rem;
+    }
+
+    .banner .new{
+        margin-left: 20rem;
+    }
+
+    .banner h1{
+        margin-left: 20rem;
+    }
+
+    article .right{
+        padding-left: 15rem;
+    }
+
+    article img {
+        float: none;
+        width: 100%;
+        height: 56vh;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+
+      aside:hover .extra{
+        display: none;
+    }
+
+    .banner {
+        padding: 22rem 0rem;
+    }
+
+    section .center .same h1 {
+        font-size: 4rem;
+        font-weight: lighter;
+        margin-left: 16rem;
+        margin-top: 2rem;
+      }
+    
+      section .center .same {
+        width: 65%;
+        float: none;
+        background-color: #fff;
+        margin: 0 auto;
+      }
+      
+      section .center .same p {
+        font-size: 2.6rem;
+        font-weight: lighter;
+        margin: 1rem 0rem 2rem 4.4rem;
+      }
+      
+      section .center .same img {
+        width: 30%;
+        margin-top: 3rem;
+        margin-left: 15rem;
+      }
+    
+      section .center button {
+        border: none;
+        background-color: #fff;
+        font-size: 2.3rem;
+        margin-left: 15rem;
+        margin-bottom: 3rem;
+      }  
+    
+      section .center {
+        max-width: 100%;
+        margin: 0 auto;
+        clear: both;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+      }
+
+      section .center .two {
+        margin: 5% 0% 5% 17.5%;
+      }
+
+      .farm #box {
+        width: 82%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding-bottom: 6rem;
+      }
+    
+      .farm #box h1 {
+        font-size: 5.5rem;
+        padding-top: 6rem;
+        margin-left: 9rem;
+      }
+      
+      .farm #box h2 {
+        font-size: 2.8rem;
+        margin-top: 2rem;
+        margin-left: 13.5rem;
+      }
+      
+      .farm #box p {
+        font-size: 2.2rem;
+        margin-top: 3rem;
+        margin-left: 1rem;
+      }
+      
+      .farm #box button {
+        width: 17vw;
+        height: 3.5vh;
+        margin-top: 5rem;
+        margin-left: 20rem;
+      }
+
+      .review h1{
+        margin-left: 15rem;
+    }
+  
+    .review img{
+        width: 20%;
+        margin-left: 30rem;
+    }
+  
+    .review p{
+        margin-left: 29.5rem;
+    }
+
+    .blank {
+        display: none;
+    } 
+
+    main h1 {
+        margin-left: 15rem;
+        
+      }
+      
+      main .low {
+        margin-left: 15rem;
+      }
+      
+      main #size {
+        margin-left: 11rem;
+        font-size: 2.5rem;
+      }
+
+      form{
+          margin-left: -33rem;
+      }
+
+      .ab {
+        margin-left: 25rem;
+    }
+    
+    .bc {
+        margin-left: 20rem;
+    }
+    
+    .cd {
+        margin-left: 32rem;
+    }
+    
+    .de {
+        margin-left: 17rem;
+    }
+}
+
+@media (max-width: 480px){
+    html{
+        font-size: 7px;
+    }
+
+    #uniq{
+        margin-left: 270px;
+    }
+
+    header p{
+        margin-left: 0rem;
+    }
+
+    header nav {
+        margin-right: 0rem;
+    }
+    
+    header{
+        padding: 1rem;
+        min-width: 270px;
+    }
+
+    article img {
+        float: none;
+        width: 100%;
+        height: 50vh;
+        -o-object-fit: cover;
+           object-fit: cover;
+      }
+
+      aside:hover .extra{
+        display: none;
+    }
+
+    .banner {
+        padding: 22rem 0rem;
+    }
+
+    section .center .same h1 {
+        font-size: 4rem;
+        font-weight: lighter;
+        margin-left: 14rem;
+        margin-top: 2rem;
+      }
+    
+      section .center .same {
+        width: 75%;
+        float: none;
+        background-color: #fff;
+        margin: 0 auto;
+      }
+      
+      section .center .same p {
+        font-size: 2.6rem;
+        font-weight: lighter;
+        margin: 1rem 0rem 2rem 4rem;
+      }
+      
+      section .center .same img {
+        width: 36%;
+        margin-top: 3rem;
+        margin-left: 13rem;
+      }
+    
+      section .center button {
+        border: none;
+        background-color: #fff;
+        font-size: 2.3rem;
+        margin-left: 15rem;
+        margin-bottom: 3rem;
+      }  
+    
+      section .center {
+        max-width: 100%;
+        margin: 0 auto;
+        clear: both;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        background-color: #000;
+      }
+
+      section .center .two {
+        margin: 5% 0% 5% 12.6%;
+      }
+
+      section .center .two p{
+          margin-left: 3.5rem;
+      }
+
+      .farm #box {
+        width: 98%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding-bottom: 6rem;
+      }
+    
+      .farm #box h1 {
+        font-size: 5rem;
+        padding-top: 6rem;
+        margin-left: 10rem;
+      }
+      
+      .farm #box h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-left: 12rem;
+      }
+      
+      .farm #box p {
+        font-size: 2.4rem;
+        margin-top: 3rem;
+        margin-left: 0rem;
+      }
+      
+      .farm #box button {
+        width: 22vw;
+        height: 4vh;
+        margin-top: 5rem;
+        margin-left: 18rem;
+      }
+      .review h1 {
+          margin-left: 5rem;
+      }
+
+      .review img {
+          margin-left: 22rem;
+      }
+
+      .review p {
+          margin-left: 21rem;
+      }
+
+      .ab {
+        margin-left: 19rem;
+    }
+    
+    .bc {
+        margin-left: 14rem;
+    }
+    
+    .cd {
+        margin-left: 26rem;
+    }
+    
+    .de {
+        margin-left: 11rem;
+    }
+
+    
+    article .right h1{
+        margin-left: -12rem;
+    }
+
+    article .right p{
+        margin-left: -12rem;
+    }
+
+    article .right footer{
+        margin-left: -12rem;
+    }
+   
+}
